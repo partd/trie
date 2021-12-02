@@ -3,7 +3,7 @@
 You can:
 - Insert a word
 - Search with a prefix
-- Delete a word
+- Delete a word (by clicking on the word)
 
 # Demo
 ![alt-text](trie.gif)

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Trie</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .word:hover {
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Trie</h1>
+
+        <h2>Add words</h2>
+        <form onsubmit="add(event)" >
+            <input type="text" id="wordin" placeholder="Add a word">
+            <button type="submit">Add</button>
+        </form>
+
+        <h2>Search</h2>        
+        <input type="text" id="search" placehold="Type something" onkeyup="search(event)" placeholder="Type something"/>
+
+        <h3>Words</h3>
+        <div id="wordlist">
+        </div>
+        <footer>
+            <strong>Note:</strong>
+            <ul>
+                <li>To remove a word, click on it.</li>
+                <li>Inserts and searches are case sensitive.</li>
+            </ul>
+        </footer>
+        
+
+        <script src="trie.js"></script>
+    </body>
+</html>
